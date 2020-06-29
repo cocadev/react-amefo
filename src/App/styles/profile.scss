@@ -1,0 +1,26 @@
+.pp-image {
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.pp-container {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.alink {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #085cff;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}

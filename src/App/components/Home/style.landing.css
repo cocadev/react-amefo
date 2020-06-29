@@ -1,0 +1,376 @@
+.bg-landing {
+    /* background: #eb01a5; */
+
+    /* background: url("../../../assets/Layer_93.png") no-repeat center center; */
+    /* background-image: url("../../../assets/Layer_93.png"); /* fallback */
+
+    /* background-image: url("../../../assets/Layer_93.png"), linear-gradient(#ddd, #111); */ 
+    /* background: url("../../../assets/Layer_93.png") no-repeat no-repeat left top, linear-gradient(#111, #fff); */
+
+    /* background: radial-gradient(#111, #fff), url("../../../assets/Layer_93.png") no-repeat fixed; */
+    background: radial-gradient(circle closest-corner at 50% 50%, rgba(0, 0, 0, 0.43) 25%, rgba(255, 255, 255, 0.1) 75%),  url("../../../assets/Layer_93.png") center/cover;
+    background-size: cover;
+
+    /* background-size: cover; */
+    height: 500px; /* You must set a specified height */
+}
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 5%;
+}
+
+.bg-panel {
+    background-color: rgba(192, 39, 47, 0.84);
+    opacity: 0.9;
+    border-radius: 8px;
+    padding: 30px 50px;
+    position: relative;
+}
+.ico-list {
+    /* display: flex; */
+    position: relative;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* word-wrap: break-all; */
+    float: left;
+
+}
+.ico-view {
+    /* background-color: aqua; */
+    height: 70px;
+    display: flex;  
+    float: left;
+    
+    word-wrap:break-word;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 120px;
+    max-width: 120px;
+}
+.vertical-line {
+    width: 1px;
+    height: 65px;
+    background-color: #fff;
+    float: left;
+}
+
+
+/*++++++++++++++++Panel+++++++++++++++++*/
+.landing-panel{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+.bg-landing-panel {
+    padding-top: 300px;
+    background: url("../../../assets/img_1.png") no-repeat center center;
+    background-size: contain;
+    height: 500px; /* You must set a specified height */
+}
+.text-landing-panel {
+     color: #d41b18;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 30px;
+     font-weight: 600;
+     line-height: 32px;
+
+ }
+.title-landing-panel {
+    color: #434343;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.btn-landing-panel {
+    width: 205px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 22px;
+    background-color: #d41b18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.btnText-landing-panel {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*++++++++++++++++Mobile+++++++++++++++++*/
+
+.bg-mobile {
+    background-color: #f7f7f7;
+}
+
+.app-image {
+    width: 400px;
+    height: 500px;
+}
+
+.app-text {
+    width: 428px;
+    height: 34px;
+    opacity: 0.54;
+    color: #414141;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.app-btn-image-1 {
+    width: 150px;
+    height: 55px;
+    margin-left: 12px;
+}
+.app-btn-image-2 {
+    width: 150px;
+    height: 45px;
+    margin-left: 12px;
+}
+
+
+/*client*/
+.client-img {
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    bottom: -2px;
+}
+.client-text {
+    padding-left: 15rem !important;
+}
+.client-view {
+    background-color: #d41b18;
+    border-radius: 20px;
+    padding-left: 18rem !important;
+}
+
+
+.head-text {
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center
+}
+
+
+.notice-title-red{
+    color: #d41b18;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  .notice-title-black{
+    color: #313131;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .blooth-view {
+    border: 2px solid #e5e5e5;
+    background-color: #f7f7f7;
+    background: url("../../../assets/receiver.png") no-repeat right center;
+  }
+  
+  .blooth-view-2 {
+    border: 2px solid #e5e5e5;
+    background-color: #f7f7f7;
+    background: url("../../../assets/sofa_back.png") no-repeat right center;
+  }
+  
+  .blooth-view-3 {
+    border: 2px solid #e5e5e5;
+    background-color: #f7f7f7;
+    background: url("../../../assets/img_2.png") no-repeat left center;
+  }
+
+  .card-view-right-none {
+    margin: 0 0.2% 0 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0f8ec0; */
+    min-width: 250px;
+  }
+
+  
+.card-view {
+    border-right: solid 1px #fff;
+    margin: 0 0.2% 0 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0f8ec0; */
+    min-width: 250px;
+  }
+  .app-emaill-btn {
+    width: 131px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #f51a1c;
+    border-radius: 5px;
+}
+.app-emaill-btn-2 {
+    width: 131px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #f51a1c;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1400px) {
+    .app-emaill-btn {
+        width: 90px;
+        height: 30px;
+    }
+          
+.card-view {
+    border-right: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+.myrespon {
+    min-width: 300px;
+    align-self: center;
+}
+
+   .bg-landing-panel {
+        padding-top: 0;
+        background: url("../../../assets/img_1.png") no-repeat center center 50%;
+        background-size: cover;
+        height: 220px;
+    }
+    .landing-panel{
+        margin-top: -2px;
+    }
+    .text-landing-panel {
+        font-size: 22px;
+        line-height: 25px;
+        margin-right: 12px
+    }
+   .title-landing-panel {
+       font-size: 22px;
+       line-height: 25px;
+       margin-right: 12px
+   }
+   .btn-landing-panel {
+    width: 140px;
+    height: 40px;
+    margin-right: 12px
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .app-emaill-btn {
+        width: 70px;
+        height: 22px;
+    }
+    .head-text {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .vertical-line {
+        width: 0;
+        height: 0;
+    }
+    .bg-panel {
+        padding: 3px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .ico-list {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center
+    }
+    .bg-landing-panel {
+        padding-top: 0;
+        background: url("../../../assets/img_1.png") no-repeat center center 50%;
+        background-size: cover;
+        height: 150px;
+    }
+    .landing-panel{
+        margin-top: -20px;
+    }
+    .text-landing-panel {
+        font-size: 16px;
+        line-height: 25px;
+        margin-right: 12px
+    }
+   .title-landing-panel {
+       font-size: 16px;
+       line-height: 25px;
+       margin-right: 12px
+   }
+   .btn-landing-panel {
+    width: 110px;
+    height: 28px;
+    margin-right: 12px
+}
+.btnText-landing-panel {
+    font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width: 321px) {
+    .myrespon {
+        min-width: 300px;
+        align-self: center;
+    }
+    .client-view {
+        background-color: #d41b18;
+        border-radius: 20px;
+        padding-left: 1rem !important;
+        /* padding-top: 12rem !important */
+    }
+    .client-texty {
+        padding-bottom: 18rem !important
+    }
+    
+.notice-title-red{
+    font-size: 15px;
+    line-height: 16px;
+  }
+  
+  .notice-title-black{
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .img-hide {
+      display: none
+  }
+  .blooth-view-2 {
+    background: none;
+  }
+  .float-right {
+      float: right;
+      clear: both;
+  }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+$light-gray: #e4e4e4;
+$background-2: #e44b56;
+
+.image-container img {
+  width: 90%;
+  margin: auto;
+}
+.image-container {
+  border: 1px solid $light-gray;
+  background: white;
+  padding-right: 25px;
+  padding-top: 40px;
+  height: 100%;
+  text-align: center;
+}
+.mini-image-container {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: white;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.mini-image-container img {
+  width: 100%;
+}
+
+.product-title {
+  font-size: 2.8rem;
+  text-transform: capitalize;
+}
+.product-valoration {
+  width: 150px;
+  color: rgb(218, 196, 7);
+  border-radius: 10px;
+  font-size: 2rem;
+  line-height: 0.5;
+}
+.product-caracteristicas {
+  background: #ecf0f4;
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+}
+.product-price {
+  color: green;
+}
+.indice {
+  margin-bottom: 25px;
+}
+.subindice {
+  font-size: 1.2rem;
+  color: gray;
+}
+.car-title {
+  font-weight: 600;
+}
+.car-value {
+  font-weight: 200;
+  margin-left: 10px;
+}
+.main-details {
+  background: white;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+}
+
+.product-buttons {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.product-min-description {
+  margin-top: 20px;
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  color: #3c3c3c;
+}
+
+.description {
+  background: white;
+  border: $light-gray;
+  margin-top: 15px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.ads {
+  text-align: center;
+}
+.product-ads {
+  margin: auto;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+  width: 90%;
+  height: 350px;
+}
+
+.qr-container {
+  border: 2px solid #e2e2e2;
+  margin: auto;
+  padding: 25px;
+  width: max-content;
+}
+
+.sell-description {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.sell-modal-button {
+  margin-top: 25px;
+}
+
+.sell-modal-price {
+  text-align: center;
+  text-align: center;
+  margin: 15px;
+  color: gray;
+  font-weight: 100;
+}
+.sell-modal-price b {
+  color: green;
+}
+
+.sell-modal-price span {
+  color: $background-2;
+}
+
+.sell-about {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.modal-body {
+  padding: 15px;
+}
+
+.portada {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 120px;
+  text-align: center;
+  background: red;
+  color: white;
+  font-weight: 800;
+}
+
+.imageBox {
+  cursor: move;
+  position: relative;
+}
+.imageBox.default {
+  border: 3px solid rgb(161, 161, 161);
+  border-radius: 5px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  background-color: white;
+  font-size: 2.4rem;
+  position: relative;
+  align-items: center;
+  display: grid;
+  margin-left: 5px;
+}
+.imageBox.default i {
+  color: rgb(161, 161, 161);
+}
+.deleteHover {
+  opacity: 0;
+  position: absolute;
+  background-color: #ff18288a;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+  z-index: 1;
+  padding-top: 35px;
+  width: calc(100% - 4px);
+  height: 100%;
+  left: 4px;
+  transition: 0.5s opacity;
+  pointer-events: none;
+  text-decoration: none;
+}
+.deleteHover i {
+  cursor: pointer;
+  pointer-events: all;
+}
+.imageBox:hover .deleteHover {
+  opacity: 1;
+}
+
+.labelAddImageProduct {
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  background: red;
+  color: #fff;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+input[type="file"] {
+  display: none;
+}

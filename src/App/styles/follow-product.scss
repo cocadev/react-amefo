@@ -1,0 +1,36 @@
+.seguimiento-content {
+  margin: 25px;
+  background: white;
+  border-radius: 5px;
+}
+.input-group-text {
+  color: white;
+  background-color: #e44b56;
+  border: 1px solid #e0a8a8;
+}
+
+.form-control {
+  border-color: #e0a8a8;
+}
+
+.detail-container {
+  padding-right: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #e0a8a8;
+}
+
+.titulo-prod {
+  font-weight: 600;
+}
+.titulo-prod span {
+  color: green;
+}
+.min-desc {
+  color: gray;
+  font-weight: 100;
+}
+
+.fa-star {
+  cursor: pointer;
+  color: gold;
+}
