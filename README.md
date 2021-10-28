@@ -1,4 +1,4 @@
-# Amefo react.js landing page from `Spain`
+# Amefo react.js landing page from `Spain` 2
 
 <img src="screens/1.png">
 <img src="screens/2.png">
